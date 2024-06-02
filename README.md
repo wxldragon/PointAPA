@@ -8,7 +8,9 @@ The official implementation of our ESORICS 2024 paper "PointAPA: Towards Availab
 ## Abstract
 Recently, the realm of deep learning applied to 3D point clouds has witnessed significant progress, accompanied by a growing concern about the emerging security threats to point cloud models. While adversarial attacks and backdoor attacks have gained continuous attention, the potentially more detrimental _availability poisoning attack_ (APA) remains unexplored in this domain. In response, _we propose the first APA approach in 3D point cloud domain_ (PointAPA), which _utilizes class-wise rotations to serve as shortcuts for poisoning, thus satisfying efficiency, effectiveness, concealment, and the black-box setting._ Drawing inspiration from the prevalence of shortcuts in deep neural networks, we exploit the impact of rotation in 3D data augmentation on feature extraction in point cloud networks. This rotation serves as a shortcut, allowing us to apply varying degrees of rotation to training samples from different categories, creating effective shortcuts that contaminate the training process. The natural and efficient rotating operation makes our attack highly inconspicuous and easy to launch. Furthermore, our poisoning scheme is more concealed due to keeping the labels clean (_i.e._, clean-label APA). Extensive experiments on benchmark datasets of 3D point clouds (including real-world datasets for autonomous driving) have provided compelling evidence that our approach largely compromises 3D point cloud models, resulting in a reduction in model accuracy ranging from 40.6% to 73.1% compared to clean training. Additionally, our method demonstrates resilience against _statistical outlier removal_ (SOR) and three types of random data augmentation defense schemes.
 
-<img src="PointAPA.png" width="700"/>
+<p align="center">
+  <img src="PointAPA.png" width="700"/>
+</p>
 
 ## Latest Update
 | Date       | Event    |
