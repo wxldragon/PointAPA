@@ -35,3 +35,9 @@ pip install -r requirements.txt
 - **Download datasets**
   - Please download ModelNet dataset at: [[ModelNet](https://www.kaggle.com/datasets/chenxaoyu/modelnet-normal-resampled)], ShapeNetPart dataset at: [[ShapeNetPart](https://www.kaggle.com/datasets/mitkir/shapenet)]
   - Unzip the datasets.zip files in ```PointAPA/datasets```
+
+ 
+- **Generate PointAPA (_i.e._, poisoned) datasets**
+```shell
+python poison_generation.py --interval 42 --dataset ModelNet10
+```
