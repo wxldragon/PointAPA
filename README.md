@@ -15,10 +15,12 @@ Recently, the realm of deep learning applied to 3D point clouds has witnessed si
 ## Latest Update
 | Date       | Event    |
 |------------|----------|
+| **2024/06/03** | We have released the implementation of PointAPA!  |
 | **2024/03/19** | PointAPA is acccepted by ESORICS 2024!  |
 
 
-## Quick Start
+
+## Start Running PointAPA
 - **Get code**
 ```shell 
 git clone https://github.com/wxldragon/PointAPA.git
@@ -34,7 +36,7 @@ pip install -r requirements.txt
 
 - **Download datasets**
   - Please download ModelNet dataset at: [[ModelNet](https://www.kaggle.com/datasets/chenxaoyu/modelnet-normal-resampled)], ShapeNetPart dataset at: [[ShapeNetPart](https://www.kaggle.com/datasets/mitkir/shapenet)]
-  - Unzip the datasets.zip files in ```PointAPA/datasets```
+  - Unzip the datasets.zip files in ```PointAPA/clean_data```
 
  
 - **Generate PointAPA (_i.e._, poisoned) datasets**
