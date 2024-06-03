@@ -33,5 +33,5 @@ pip install -r requirements.txt
 ```
 
 - **Download datasets**
-  - Please download ModelNet datasets at: [[ModelNet](https://www.kaggle.com/datasets/chenxaoyu/modelnet-normal-resampled)]
+  - Please download ModelNet datasets at: [[ModelNet](https://www.kaggle.com/datasets/chenxaoyu/modelnet-normal-resampled)], ShapeNetPart datasets at: [[ShapeNetPart](https://www.kaggle.com/datasets/mitkir/shapenet)]
   - Unzip the datasets.zip files in ```PointAPA/data```
