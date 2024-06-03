@@ -31,3 +31,7 @@ conda create -n PointAPA python=3.9
 conda activate PointAPA
 pip install -r requirements.txt
 ```
+
+- **Download datasets**
+  - Please download ModelNet datasets at: [[ModelNet](https://www.kaggle.com/datasets/chenxaoyu/modelnet-normal-resampled)]
+  - Unzip the datasets.zip files in ```PointAPA/data```
