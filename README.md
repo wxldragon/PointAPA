@@ -39,5 +39,20 @@ pip install -r requirements.txt
  
 - **Generate PointAPA (_i.e._, poisoned) datasets**
 ```shell
-python poison_generation.py --interval 42 --dataset ModelNet10
+python poison_generation.py --dataset ModelNet10 --interval 42 
+```
+
+- **Perform clean training**
+```shell
+python train.py --dataset ModelNet10 --target_model pointnet_cls
+```
+
+- **Perform poison training for evaluation of PointAPA's effectiveness**
+```shell
+python train.py --dataset ModelNet10 --target_model pointnet_cls --poison_train --interval 42
+```
+
+- **Perform poison training under defenses for evaluation of PointAPA's robustness**
+```shell
+python train.py --dataset ModelNet10 --target_model pointnet_cls --poison_train --interval 42 --defense --aug_type sca
 ```
