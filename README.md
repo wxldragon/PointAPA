@@ -15,6 +15,7 @@ Recently, the realm of deep learning applied to 3D point clouds has witnessed si
 ## Latest Update
 | Date       | Event    |
 |------------|----------|
+| **2024/06/07** | We have released the PointAPA paper!  |
 | **2024/06/03** | We have released the implementation of PointAPA!  |
 | **2024/03/19** | PointAPA is acccepted by ESORICS 2024!  |
 
