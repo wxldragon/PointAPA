@@ -58,3 +58,7 @@ python train.py --dataset ModelNet10 --target_model pointnet_cls --poison_train 
 ```shell
 python train.py --dataset ModelNet10 --target_model pointnet_cls --poison_train --interval 42 --defense --aug_type sca
 ```
+
+
+## BibTex
+
