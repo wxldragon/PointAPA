@@ -65,7 +65,7 @@ If you find PointAPA both interesting and helpful, please consider citing us in 
 ```bibtex
 @inproceedings{wang2024pointapa,
   title={PointAPA: Towards Availability Poisoning Attacks in 3D Point Clouds},
-  author={Wang, Xianlong and Li, Minghui and Xu, Peng and Liu, Wei and Zhang, Leo Yu and Hu, Shengshan and Zhang Yanjun},
+  author={Wang, Xianlong and Li, Minghui and Xu, Peng and Liu, Wei and Zhang, Leo Yu and Hu, Shengshan and Zhang, Yanjun},
   booktitle={Proceedings of the 29th European Symposium on Research in Computer Security (ESORICS'24)},
   year={2024}
 }
