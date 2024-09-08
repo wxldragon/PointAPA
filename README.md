@@ -1,5 +1,5 @@
 # PointAPA
-The official implementation of our ESORICS 2024 paper "*[PointAPA: Towards Availability Poisoning Attacks in 3D Point Clouds](https://www.researchgate.net)*", by *[Xianlong Wang](https://wxldragon.github.io/), [Minghui Li](http://trustai.cse.hust.edu.cn/index.htm), [Peng Xu](https://faculty.hust.edu.cn/xupeng1/zh_CN/index.htm), [Wei Liu](https://wilmido.github.io/), [Leo Yu Zhang](https://experts.griffith.edu.au/41503-leo-zhang), [Shengshan Hu](http://trustai.cse.hust.edu.cn/index.htm), and [Yanjun Zhang](https://profiles.uts.edu.au/Yanjun.Zhang).*
+The official implementation of our ESORICS 2024 paper "*[PointAPA: Towards Availability Poisoning Attacks in 3D Point Clouds](https://doi.org/10.1007/978-3-031-70879-4_7)*", by *[Xianlong Wang](https://wxldragon.github.io/), [Minghui Li](http://trustai.cse.hust.edu.cn/index.htm), [Peng Xu](https://faculty.hust.edu.cn/xupeng1/zh_CN/index.htm), [Wei Liu](https://wilmido.github.io/), [Leo Yu Zhang](https://experts.griffith.edu.au/41503-leo-zhang), [Shengshan Hu](http://trustai.cse.hust.edu.cn/index.htm), and [Yanjun Zhang](https://profiles.uts.edu.au/Yanjun.Zhang).*
 
 ![ESORICS 2024](https://img.shields.io/badge/ESORICS-2024-blue.svg?style=plastic) 
 ![Availability Poisoning Attacks](https://img.shields.io/badge/Poisoning-Attacks-orange.svg?style=plastic)
@@ -15,8 +15,9 @@ Recently, the realm of deep learning applied to 3D point clouds has witnessed si
 ## Latest Update
 | Date       | Event    |
 |------------|----------|
+| **2024/09/05** | The official paper of this paper is available at _[PointAPA](https://doi.org/10.1007/978-3-031-70879-4_7)_ !  |
 | **2024/06/03** | We have released the implementation of PointAPA!  |
-| **2024/03/19** | PointAPA is acccepted by ESORICS 2024!  |
+| **2024/03/19** | PointAPA is acccepted by ESORICS 2024 (Spring Cycle)!  |
 
 
 
